@@ -1,5 +1,5 @@
 ﻿The Search Dude
-1.0.0
+1.1.0
 
 winexe
 C#
@@ -16,5 +16,5 @@ D:\Visual-Studio\The Search Dude\App.xaml
 197-500324426
 Controls\ValidableTextBox\ValidableTextBox.xaml;MainWindow.xaml;WindowClickRender.xaml;WindowKeyRender.xaml;WindowNoticeDisplay.xaml;WindowPositionPicker.xaml;WindowSearchStatus.xaml;WindowUsageHelp.xaml;
 
-False
+True
 

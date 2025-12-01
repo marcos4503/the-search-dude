@@ -53,7 +53,7 @@ namespace The_Search_Dude {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/The Search Dude;V1.0.0;component/windowclickrender.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/The Search Dude;V1.1.0;component/windowclickrender.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\WindowClickRender.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

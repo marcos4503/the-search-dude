@@ -37,6 +37,8 @@
                     <Image Source="/Resources/help-9.png" Margin="0,8,0,0"/>
                     <TextBlock TextWrapping="Wrap" Text="You can also customize the User Agent that will be used during Emulation, if you want to make any fine adjustments." TextAlignment="Justify" Margin="0,8,0,0"/>
                     <Image Source="/Resources/help-10.png" Margin="0,8,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="If possible, it is also recommended that you turn off the &quot;Touch Mode&quot; by clicking the &quot;Hand&quot; icon in Firefox Emulation mode. This helps avoid some problems during The Search Dude's click simulation." TextAlignment="Justify" Margin="0,8,0,0"/>
+                    <Image Source="/Resources/help-11.png" Margin="0,8,0,0"/>
                     <TextBlock TextWrapping="Wrap" Text="Now, simply use your browser's top URL Bar to access your favorite Search Engine and start searching. You can also configure The Search Dude's Position Pickers to do the searches for you." TextAlignment="Justify" Margin="0,8,0,0" VerticalAlignment="Top"/>
                 </StackPanel>
             </ScrollViewer>

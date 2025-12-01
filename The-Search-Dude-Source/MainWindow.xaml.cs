@@ -101,6 +101,27 @@ namespace The_Search_Dude
             saveCtrlInputParamsBtn.Click += (s, e) => { SaveControlInputParametersFromUI(schemeSelectorCbx.SelectedIndex); };
             //Prepare the search button
             startSearchBtn.Click += (s, e) => { StartSearchTask(); };
+            moreSearchOptsBtn.Click += (s, e) =>
+            {
+                //If don't have a context menu yet, create it
+                if (moreSearchOptsBtn.ContextMenu == null)
+                {
+                    //Prepare the context menu
+                    moreSearchOptsBtn.ContextMenu = new ContextMenu();
+
+                    //Add the option for start Search Using Scheme 1 Then Scheme 2
+                    MenuItem searchOption1 = new MenuItem();
+                    searchOption1.Header = "Start Search Using Scheme 1, then Scheme 2";
+                    searchOption1.Click += (s, e) => { StartSearchTaskUsingScheme1ThenScheme2(); };
+                    moreSearchOptsBtn.ContextMenu.Items.Add(searchOption1);
+                }
+
+                //Display the context menu
+                ContextMenu contextMenu = moreSearchOptsBtn.ContextMenu;
+                contextMenu.PlacementTarget = moreSearchOptsBtn;
+                contextMenu.IsOpen = true;
+                e.Handled = true;
+            };
 
             //Prepare the validation of fields of Automatic Search Preferences in the UI
             PrepareAutomaticSearchPreferencesUIFieldsValidation();
@@ -926,6 +947,97 @@ namespace The_Search_Dude
                 //Wait the delay
                 yield return loopDelay;
             }
+        }
+
+        private void StartSearchTaskUsingScheme1ThenScheme2()
+        {
+            //Start the routine that will handle the automatic search using Scheme 1 and Scheme 2
+            IDisposable automaticSearchHandleRoutine = Coroutine.Start(SearchTaskRoutineScheme1Scheme2AutomaticHandlerRoutine());
+        }
+
+        private IEnumerator SearchTaskRoutineScheme1Scheme2AutomaticHandlerRoutine()
+        {
+            //Enable the interaction blocker
+            inputBlock.Visibility = Visibility.Visible;
+
+            //Wait time
+            yield return new WaitForSeconds(1.0f);
+
+            //Load the Scheme 1
+            schemeSelectorCbx.SelectedIndex = 0;
+            LoadControlInputParametersToUI(schemeSelectorCbx.SelectedIndex);
+
+            //Wait time
+            yield return new WaitForSeconds(3.0f);
+
+            //Start the Search
+            StartSearchTask();
+
+            //Wait time
+            yield return new WaitForSeconds(1.0f);
+
+            //Simulate the F10 press to continue
+            DoKeyDownAndUpSingleKeyboardPress(VirtualKeyHex.VK_F10);
+
+            //Wait time
+            yield return new WaitForSeconds(5.0f);
+
+            //Start the loop to wait for finish of this search
+            WaitForSeconds loop1Delay = new WaitForSeconds(1.0f);
+            while (true)
+            {
+                //If exited from the searching mode, stop this loop
+                if (GetCurrentProgramMode() != ProgramMode.Searching)
+                    break;
+                //Wait the loop
+                yield return loop1Delay;
+            }
+
+            //Wait time
+            yield return new WaitForSeconds(5.0f);
+
+            //Load the Scheme 2
+            schemeSelectorCbx.SelectedIndex = 1;
+            LoadControlInputParametersToUI(schemeSelectorCbx.SelectedIndex);
+
+            //Wait time
+            yield return new WaitForSeconds(3.0f);
+
+            //Start the Search
+            StartSearchTask();
+
+            //Wait time
+            yield return new WaitForSeconds(1.0f);
+
+            //Simulate the F10 press to continue
+            DoKeyDownAndUpSingleKeyboardPress(VirtualKeyHex.VK_F10);
+
+            //Wait time
+            yield return new WaitForSeconds(5.0f);
+
+            //Start the loop to wait for finish of this search
+            WaitForSeconds loop2Delay = new WaitForSeconds(1.0f);
+            while (true)
+            {
+                //If exited from the searching mode, stop this loop
+                if (GetCurrentProgramMode() != ProgramMode.Searching)
+                    break;
+                //Wait the loop
+                yield return loop2Delay;
+            }
+
+            //Wait time
+            yield return new WaitForSeconds(5.0f);
+
+            //Load the Scheme 1 again
+            schemeSelectorCbx.SelectedIndex = 0;
+            LoadControlInputParametersToUI(schemeSelectorCbx.SelectedIndex);
+
+            //Wait time
+            yield return new WaitForSeconds(3.0f);
+
+            //Disable the interaction blocker
+            inputBlock.Visibility = Visibility.Collapsed;
         }
 
         //Private auxiliar methods

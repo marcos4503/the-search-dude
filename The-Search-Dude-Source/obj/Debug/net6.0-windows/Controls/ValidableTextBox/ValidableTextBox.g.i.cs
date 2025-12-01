@@ -86,7 +86,7 @@ namespace The_Search_Dude.Controls.ValidableTextBox {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/The Search Dude;V1.0.0;component/controls/validabletextbox/validabletextbox.xaml" +
+            System.Uri resourceLocater = new System.Uri("/The Search Dude;V1.1.0;component/controls/validabletextbox/validabletextbox.xaml" +
                     "", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Controls\ValidableTextBox\ValidableTextBox.xaml"

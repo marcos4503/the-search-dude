@@ -144,8 +144,25 @@
             </Grid>
         </ScrollViewer>
         <Rectangle Height="1" VerticalAlignment="Bottom" StrokeThickness="0" Fill="#FF9C9C9C" Margin="0,150,0,64"/>
-        <Button x:Name="startSearchBtn" Content="Start Searching!" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="32" Width="128" Margin="0,0,0,18" Cursor="Hand"/>
+        <Grid Width="144" Height="32" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,18">
+            <Button x:Name="startSearchBtn" Content="Start Searching!" Cursor="Hand" Margin="0,0,16,0"/>
+            <Button x:Name="moreSearchOptsBtn" Margin="128,0,0,0" HorizontalAlignment="Right" Width="17" Cursor="Hand">
+                <Image Source="/Resources/triangle.png" Margin="2,2,2,2" Opacity="0.75" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="180"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+            </Button>
+        </Grid>
         <TextBlock TextWrapping="Wrap" Text="created with ❤️ by Marcos Tomaz in 2025" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="8" Foreground="#FFB7B7B7" Margin="0,0,0,4"/>
+        <Grid x:Name="inputBlock" Background="#E5000000" Visibility="Collapsed">
+            <TextBlock TextWrapping="Wrap" Text="Performing automatic search task, using multiple Schemes. Please wait, and do not interact with your computer unless you wish to stop this." HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Foreground="White" Margin="32,0,32,0" FontWeight="Bold"/>
+        </Grid>
 
     </Grid>
 </Window>
