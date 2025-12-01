@@ -1,0 +1,45 @@
+D:\Visual-Studio\The Search Dude\bin\Release\net6.0-windows\win-x64\The Search Dude.exe
+D:\Visual-Studio\The Search Dude\bin\Release\net6.0-windows\win-x64\Content\search-therms-list.txt
+D:\Visual-Studio\The Search Dude\bin\Release\net6.0-windows\win-x64\Resources\key-press.wav
+D:\Visual-Studio\The Search Dude\bin\Release\net6.0-windows\win-x64\Resources\mouse-click.wav
+D:\Visual-Studio\The Search Dude\bin\Release\net6.0-windows\win-x64\Resources\task-done.wav
+D:\Visual-Studio\The Search Dude\bin\Release\net6.0-windows\win-x64\The Search Dude.deps.json
+D:\Visual-Studio\The Search Dude\bin\Release\net6.0-windows\win-x64\The Search Dude.runtimeconfig.json
+D:\Visual-Studio\The Search Dude\bin\Release\net6.0-windows\win-x64\The Search Dude.dll
+D:\Visual-Studio\The Search Dude\bin\Release\net6.0-windows\win-x64\The Search Dude.pdb
+D:\Visual-Studio\The Search Dude\bin\Release\net6.0-windows\win-x64\CoroutinesDotNet.Wpf.dll
+D:\Visual-Studio\The Search Dude\bin\Release\net6.0-windows\win-x64\CoroutinesDotNet.dll
+D:\Visual-Studio\The Search Dude\bin\Release\net6.0-windows\win-x64\Newtonsoft.Json.dll
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\The Search Dude.csproj.AssemblyReference.cache
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\Controls\ValidableTextBox\ValidableTextBox.g.cs
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\MainWindow.g.cs
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\WindowClickRender.g.cs
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\WindowKeyRender.g.cs
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\WindowNoticeDisplay.g.cs
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\WindowPositionPicker.g.cs
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\WindowSearchStatus.g.cs
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\WindowUsageHelp.g.cs
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\App.g.cs
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\The Search Dude_Content.g.cs
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\GeneratedInternalTypeHelper.g.cs
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\The Search Dude_MarkupCompile.cache
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\The Search Dude_MarkupCompile.lref
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\Controls\ValidableTextBox\ValidableTextBox.baml
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\MainWindow.baml
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\WindowClickRender.baml
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\WindowKeyRender.baml
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\WindowNoticeDisplay.baml
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\WindowPositionPicker.baml
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\WindowSearchStatus.baml
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\WindowUsageHelp.baml
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\The Search Dude.g.resources
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\The Search Dude.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\The Search Dude.AssemblyInfoInputs.cache
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\The Search Dude.AssemblyInfo.cs
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\The Search Dude.csproj.CoreCompileInputs.cache
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\The Sear.BAE67782.Up2Date
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\The Search Dude.dll
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\refint\The Search Dude.dll
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\The Search Dude.pdb
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\The Search Dude.genruntimeconfig.cache
+D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\win-x64\ref\The Search Dude.dll

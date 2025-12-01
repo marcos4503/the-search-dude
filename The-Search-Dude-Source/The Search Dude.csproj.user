@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>D:\Visual-Studio\The Search Dude\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Controls\ValidableTextBox\ValidableTextBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowClickRender.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowKeyRender.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowNoticeDisplay.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowPositionPicker.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowSearchStatus.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowUsageHelp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Controls\ValidableTextBox\ValidableTextBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowClickRender.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowKeyRender.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowNoticeDisplay.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowPositionPicker.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowSearchStatus.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowUsageHelp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,503 @@
+[ Only the following characters are allowed for search therms: a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, space, ., -, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 ]
+[ Use line break to separate search therms. ]
+#
+Who is Renan Santos
+Missao 14
+Need For Speed
+Dirt
+Grid
+Forza Horizon
+Forza Motorsport
+League Of Legends
+DOTA
+Minecraft
+Hytale
+Watch Dogs
+The Last of Us
+Assassins Creed
+Batman Arkhan
+Bioshock
+Cyberpunk 2077
+Devil May Cry
+Resident Evil
+The Evil Within
+Far Cry
+The Forest
+Grand Theft Auto
+Heavy Rain
+Hellblade
+Horizon Zero Dawn
+Injustice
+Just Cause
+Left 4 Dead
+Mortal Kombat
+Red Dead
+Tomb Raider
+The Sims
+State of Decay
+The Witcher
+JDM
+Pontiac GTO
+Nissan Skyline
+Toyota Supra
+Honda Civic
+Toyota Corolla
+Nissan Silvia
+Dodge SRT Hellcat
+Dodge Charger
+Chevrolet Impala
+Mazda RX-7
+Mazda MX-5
+Honda NSX
+Subaru Impreza
+Mitsubishi Lancer
+Mitsubishi Eclipse
+Elon Musk
+Jeff Bezos
+Mark Zuckerberg
+Larry Page
+Sergey Brin
+Jensen Huang
+Bill Gates
+Warren Buffett
+Larry Ellison
+Kim Kataguiri
+Brazil
+China
+United States of America
+Mexico
+France
+Italia
+Canada
+Japan
+South Korea
+Africa
+Argentina
+Vietnam
+George Washington
+John Adams
+Thomas Jefferson
+James Madison
+James Monroe
+John Quincy Adams
+Andrew Jackson
+Martin Van Buren
+William Henry Harrison
+John Tyler
+James K. Polk
+Zachary Taylor
+Millard Fillmore
+Franklin Pierce
+James Buchanan
+Abraham Lincoln
+Andrew Johnson
+Ulysses S. Grant
+Rutherford B. Hayes
+James A. Garfield
+Chester A. Arthur
+Grover Cleveland
+Benjamin Harrison
+Grover Cleveland
+William McKinley
+Theodore Roosevelt
+William Howard Taft
+Woodrow Wilson
+Warren G. Harding
+Calvin Coolidge
+Herbert Hoover
+Franklin D. Roosevelt
+Harry S. Truman
+Dwight D. Eisenhower
+John F. Kennedy
+Lyndon B. Johnson
+Richard Nixon
+Gerald Ford
+Jimmy Carter
+Ronald Reagan
+George H. W. Bush
+Bill Clinton
+George W. Bush
+Barack Obama
+Donald Trump
+Joe Biden
+Soccer
+Basketball
+Tennis
+Baseball
+Volleyball
+Football
+Golf
+Swimming
+Running
+Cycling
+Gymnastics
+Athletics
+Table Tennis
+Beach Volleyball
+Handball
+Rugby
+Boxing
+Surfing
+Judo
+Karate
+MMA
+Muai Thai
+Fencing
+Zachary Levi
+Leonardo DiCaprio
+Will Smith
+Johnny Depp
+Tom Cruise
+Robert Downey Jr.
+Robert De Niro
+Tom Hanks
+Clint Eastwood
+Brad Pitt
+Jack Nicholson
+Denzel Washington
+Al Pacino
+Morgan Freeman
+Keanu Reeves
+Samuel L. Jackson
+Marlon Brando
+Mel Gibson
+Harrison Ford
+Anthony Hopkins
+Christian Bale
+Jim Carrey
+Ryan Gosling
+Robin Williams
+Kevin Spacey
+Sean Connery
+Nicolas Cage
+Jason Statham
+Michael Caine
+Woody Harrelson
+Ken Watanabe
+Adam Sandler
+Jensen Ackles
+Jared Padalecki
+Misha Collins
+Mark Sheppard
+Jeffrey Dean Morgan
+Jim Beaver
+Alexander Calvert
+Ruth Connell
+Mark Pellegrino
+Samantha Smith
+Katie Cassidy
+Rob Benedict
+DJ Qualls
+Felicia Day
+Kathryn Newton
+Alona Tal
+Courtney Ford
+Yvonne Strahovski
+Joshua Gomez
+Sarah Lancaster
+Adam Baldwin
+Ryan McPartlin
+Grant Gustin
+Candice Patton
+Danielle Panabaker
+Jesse L. Martin
+Carlos Valdes
+Tom Cavanagh
+John Wesley Shipp
+Violett Beane
+The Legend of Zelda
+Doom
+Half-Life 2
+Mass Effect
+World of Warcraft
+Overwatch 2
+Uncharted
+Metal Gear Solid
+Castlevania
+Stardew Valley
+Chrono Trigger
+Fallout
+Pokemon
+Pac-Man
+Mario Kart
+Tony Hawks Pro Skater
+Hollow Knight
+Super Metroid
+Tetris
+Street Fighter
+Tekken
+The Elder Scrolls
+50 Cent
+Snoop Dogg
+Eminem
+Dr. Dre
+Post Malone
+DMX
+Method Man
+Ice Cube
+Queen Latifah
+Rakim
+The Notorious B.I.G.
+Chris Brown
+Stranger Things
+The Sopranos
+Supernatural
+Breaking Bad
+The Walking Dead
+Reacher
+Peaky Blinders
+Game of Thrones
+Dark
+Yellowstone
+Big Bang The Teory
+House M.D.
+The Boys
+Brooklyn Nine-Nine
+Better Call Saul
+Drake and Josh
+The Office
+American Dad
+BoJack Horseman
+Chaves
+Friends
+Rick and Morty
+The Avengers
+Spider-Man
+What If...
+The Mandalorian
+Hit-Monkey
+Chernobyl
+The Crown
+Succession
+House of the Dragon
+True Detective
+Band of Brothers
+The Flash
+Seinfeld
+Wednessday
+La Casa de Papel
+Pretty Little Liars
+Gossip Girl
+Grimm
+One Piece
+Dragon Ball Z
+Bleach
+Neon Genesis Evangelion
+Attack on Titan
+Naruto
+Boruto
+Cowboy Bebop
+Yu-Gi-Oh
+Jujutsu Kaisen
+Fullmetal Alchemist
+My Hero Academia
+Demon Slayer
+SPY FAMILY
+Black Clover
+Avatar
+Bleach Thousand-Year Blood War
+HAIKYU
+Inazuma Eleven
+Dororo
+One-Punch Man
+Berserk
+Chuck
+Charlotte
+Chuck Bartowski
+Sheldon Cooper
+Dean Winchester
+Samuel Winchester
+Meredith Grey
+Gregory House
+Tommy Shelby
+Barry Allen
+Dr. Shaun Murphy
+Chandler Bing
+Jughead Jones
+Oliver Queen
+Peter Griffin
+Family Guy
+Homer Simpson
+Marge Simpson
+Walter White
+Jessie Pinkman
+Charlie Harper
+Eric Cartman
+Fox Mulder
+Dana Scully
+Brandon Walsh
+Clark Kent
+George Costanza
+Seth Cohen
+Michael Kelso
+Jack McFarland
+Jack Shephard
+Rachel Berry
+Al Bundy
+Daenerys Targaryen
+Michael Scott
+Don Draper
+Eleven Stranger Things
+Jim Halpert
+Carrie Mathison
+Mickey Mouse
+Bugs Bunny
+Scooby-Doo
+The Simpsons
+Tom and Jerry
+SpongeBob SquarePants
+The Looney Tunes
+Adventure Time
+Phineas and Ferb
+Woody Woodpecker
+Sylvester
+Daffy Duck
+Mr. Bean
+South Park
+The Amazing World of Gumball
+Dexters Laboratory
+The Flintstones
+Gravity Falls
+Steven Universe
+Teen Titans Go
+Regular Show
+Danny Phantom
+Fairly OddParents
+Kim Possible
+The Powerpuff Girls
+Johnny Bravo
+Cat Dog
+Honda S2000
+Toyota AE86
+Ford Mustang
+Chevrolet Camaro
+Plymouth Barracuda
+Chevrolet Chevelle SS
+Ford Torino Cobra
+Buick GSX
+Dodge Challenger
+Chevrolet Nova SS
+Gran Torino
+Pontiac Catalina
+Chevrolet Monte Carlo SS
+The Godfather
+The Shawshank Redemption
+The Dark Knight
+Pulp Fiction
+Forrest Gump
+Inception
+The Matrix
+Fight Club
+The Lord of the Rings
+Star Wars
+Goodfellas
+One Flew Over the Cuckoos Nest
+Interstellar
+The Silence of the Lambs
+Saving Private Ryan
+Casablanca
+Titanic
+Back To the Future
+Gladiator
+Blade Runner
+The Truman Show
+E.T. The Extra-Terrestrial
+Rocky
+Terminator
+Jaws
+The Departed
+The Pianist
+Whiplash
+8 Mile
+The Green Mile
+Eternal Sunshine of the Spotless Mind
+Apocalypse Now
+Alien
+The Shining
+A Clockwork Orange
+Scarface
+Taxi Driver
+Trainspotting
+No Country for Old Men
+Kill Bill
+James Doakes
+Mad Max
+Two and a Half Men
+Lion
+Tiger
+Elephant
+Giraffe
+Monkey
+Chimpanzee
+Gorilla
+Panda Bear
+Wolf
+Fox
+X Files
+Dolphin
+Whale
+Kangaroo
+Koala
+Rhinoceros
+Hippopotamus
+Cheetah
+Leopard
+Zebra
+Bat
+Rabbit
+Horse
+Sloth
+Wolverine
+Eagle
+Falcon
+Owl
+Parrot
+Toucan
+Penguin
+Flamingo
+Ostrich
+Peacock
+Hummingbird
+Crow
+Albatross
+Bald Eagle
+Pigeon
+Shark
+Clownfish
+Goldfish
+Jellyfish
+Octopus
+Sea Turtle
+Seahorse
+Starfish
+Coral
+Dolphin
+Blue Whale
+Snake
+Crocodile
+Alligator
+Chameleon
+Frog
+Salamander
+Komodo Dragon
+Butterfly
+Wasp
+Dragonfly
+Axolotl
+Hedgehog
+Pangolin
+Armadillo
+Capybara
+Peugeot
+Fiat
+Audi
+BMW
+Volkswagen
+Yamaha
+Kawasaki
+Suzuki
+Renault
+Hyundai
+Porsche
+Acura
+Lexus

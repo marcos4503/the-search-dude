@@ -1,0 +1,45 @@
+D:\Visual-Studio\The Search Dude\bin\Debug\net6.0-windows\The Search Dude.exe
+D:\Visual-Studio\The Search Dude\bin\Debug\net6.0-windows\The Search Dude.deps.json
+D:\Visual-Studio\The Search Dude\bin\Debug\net6.0-windows\The Search Dude.runtimeconfig.json
+D:\Visual-Studio\The Search Dude\bin\Debug\net6.0-windows\The Search Dude.dll
+D:\Visual-Studio\The Search Dude\bin\Debug\net6.0-windows\The Search Dude.pdb
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\App.g.cs
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\The Search Dude_MarkupCompile.cache
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\The Search Dude_MarkupCompile.lref
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\The Search Dude.g.resources
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\The Search Dude.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\The Search Dude.AssemblyInfoInputs.cache
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\The Search Dude.AssemblyInfo.cs
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\The Search Dude.csproj.CoreCompileInputs.cache
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\The Search Dude.dll
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\refint\The Search Dude.dll
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\The Search Dude.pdb
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\The Search Dude.genruntimeconfig.cache
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\ref\The Search Dude.dll
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\The Search Dude_Content.g.cs
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\Controls\ValidableTextBox\ValidableTextBox.g.cs
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\Controls\ValidableTextBox\ValidableTextBox.baml
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowPositionPicker.g.cs
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowPositionPicker.baml
+D:\Visual-Studio\The Search Dude\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\The Search Dude.csproj.AssemblyReference.cache
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\The Sear.BAE67782.Up2Date
+D:\Visual-Studio\The Search Dude\bin\Debug\net6.0-windows\Content\search-therms-list.txt
+D:\Visual-Studio\The Search Dude\bin\Debug\net6.0-windows\CoroutinesDotNet.Wpf.dll
+D:\Visual-Studio\The Search Dude\bin\Debug\net6.0-windows\CoroutinesDotNet.dll
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowUsageHelp.g.cs
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowUsageHelp.baml
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowClickRender.g.cs
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowKeyRender.g.cs
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowClickRender.baml
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowKeyRender.baml
+D:\Visual-Studio\The Search Dude\bin\Debug\net6.0-windows\Resources\key-press.wav
+D:\Visual-Studio\The Search Dude\bin\Debug\net6.0-windows\Resources\mouse-click.wav
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowSearchStatus.g.cs
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowSearchStatus.baml
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowNoticeDisplay.g.cs
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowNoticeDisplay.baml
+D:\Visual-Studio\The Search Dude\bin\Debug\net6.0-windows\Resources\task-done.wav

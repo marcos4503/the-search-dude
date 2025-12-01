@@ -1,0 +1,20 @@
+﻿The Search Dude
+1.0.0
+
+winexe
+C#
+.cs
+D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\
+The_Search_Dude
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+D:\Visual-Studio\The Search Dude\App.xaml
+8-1161050560
+5122608210
+13-1435315003
+197-500324426
+Controls\ValidableTextBox\ValidableTextBox.xaml;MainWindow.xaml;WindowClickRender.xaml;WindowKeyRender.xaml;WindowNoticeDisplay.xaml;WindowPositionPicker.xaml;WindowSearchStatus.xaml;WindowUsageHelp.xaml;
+
+False
+

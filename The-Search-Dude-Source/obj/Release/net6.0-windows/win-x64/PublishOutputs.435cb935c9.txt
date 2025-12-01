@@ -1,0 +1,6 @@
+D:\Visual-Studio\The Search Dude\bin\Publish\net6.0-windows\publish\win-x64\The Search Dude.pdb
+D:\Visual-Studio\The Search Dude\bin\Publish\net6.0-windows\publish\win-x64\Content\search-therms-list.txt
+D:\Visual-Studio\The Search Dude\bin\Publish\net6.0-windows\publish\win-x64\Resources\key-press.wav
+D:\Visual-Studio\The Search Dude\bin\Publish\net6.0-windows\publish\win-x64\Resources\mouse-click.wav
+D:\Visual-Studio\The Search Dude\bin\Publish\net6.0-windows\publish\win-x64\Resources\task-done.wav
+D:\Visual-Studio\The Search Dude\bin\Publish\net6.0-windows\publish\win-x64\The Search Dude.exe

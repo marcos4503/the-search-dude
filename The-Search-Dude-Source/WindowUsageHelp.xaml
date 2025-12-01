@@ -1,0 +1,49 @@
+﻿<Window x:Class="The_Search_Dude.WindowUsageHelp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:The_Search_Dude"
+        mc:Ignorable="d"
+        Title="Usage Help" Icon="/Resources/icon-32px.png" ResizeMode="NoResize" SizeToContent="WidthAndHeight" Topmost="True" ShowInTaskbar="False" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="root" Width="360" VerticalAlignment="Top">
+        <StackPanel VerticalAlignment="Top">
+            <ScrollViewer x:Name="helpScroll" Height="567" VerticalAlignment="Top">
+                <StackPanel VerticalAlignment="Top" Margin="8,8,8,8">
+                    <TextBlock TextWrapping="Wrap" Text="How do I use the program?" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+                    <TextBlock TextWrapping="Wrap" Text="The Search Dude is a program designed to automate a series of searches that you would normally perform manually on your favorite search engine. All of this work is done automatically by &quot;The Search Dude&quot; through simulated clicks and keystrokes." Margin="0,8,0,0" TextAlignment="Justify" VerticalAlignment="Top"/>
+                    <TextBlock TextWrapping="Wrap" Text="You can use The Search Dude to simulate searches done via PC and via a Mobile Phone." TextAlignment="Justify"/>
+                    <TextBlock TextWrapping="Wrap" Text="Since The Search Dude simulates clicks and keystrokes, you need to tell The Search Dude where to click to access different areas or functions of your favorite Web Browser." TextAlignment="Justify" Margin="0,8,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="To begin, you need to specify the points where The Search Dude should click to access the different functions. To do this, open your Web Browser and drag the Position Pickers for each function." TextAlignment="Justify" Margin="0,8,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="The Position Picker &quot;URL Bar Click Point&quot; should be positioned within the Search Bar at the top of your browser." TextAlignment="Justify" Margin="0,8,0,0"/>
+                    <Image Source="/Resources/help-1.png" VerticalAlignment="Top" Margin="0,8,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="The Position Picker &quot;SE Home Page In Search Bar Point&quot; should be positioned within the Search Bar, with the Home Page of your chosen Search Engine open." TextAlignment="Justify" Margin="0,8,0,0"/>
+                    <Image Source="/Resources/help-2.png" Margin="0,8,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="The Position Picker &quot;SE Home Page Out Search Bar Point&quot; should be positioned OUTSIDE the Search Bar, with the Home Page of your chosen Search Engine open." TextAlignment="Justify" Margin="0,8,0,0"/>
+                    <Image Source="/Resources/help-3.png" Margin="0,8,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="The Position Picker &quot;SE Result Page In Search Bar Point&quot; should be placed within the Search Bar on the search results page after you perform a search using your Search Engine." TextAlignment="Justify" Margin="0,8,0,0"/>
+                    <Image Source="/Resources/help-4.png" Margin="0,8,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="The Position Picker &quot;SE Result Page Out Search Bar Point&quot; should be positioned OUTSIDE the Search Bar on the search results page after you perform a search using your Search Engine." TextAlignment="Justify" Margin="0,8,0,0"/>
+                    <Image Source="/Resources/help-5.png" Margin="0,8,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="The &quot;SE Result Page Logo Point&quot; Position Picker should be placed above your Search Engine's logo on the search results page after you perform a search using your Search Engine." TextAlignment="Justify" Margin="0,8,0,0"/>
+                    <Image Source="/Resources/help-6.png" Margin="0,8,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="With all the Position Pickers correctly positioned, click the &quot;Save Changes Here&quot; button to save the Click Positions. Then, simply click &quot;Start Searching!&quot; to begin the search task." TextAlignment="Justify" Margin="0,8,0,0"/>
+                    <Image Source="/Resources/help-7.png" Margin="0,8,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="How do I use The Search Dude to simulate searches as if I were using a Mobile Phone?" FontSize="20" FontWeight="Bold" Margin="0,16,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="To do this, you will need to use your browser's Developer Mode. The recommended browser for this is Mozilla Firefox. To begin, open a new tab in your browser, right-click on an empty space, and then click &quot;Inspect Element (Q)&quot; or &quot;Inspect (Q)&quot; option." TextAlignment="Justify" Margin="0,16,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="In Debug Mode, click the Cell Phone icon to switch to Phone mode. Note that this must be done before finally accessing the intended search engine." TextAlignment="Justify" Margin="0,8,0,0"/>
+                    <Image Source="/Resources/help-8.png" Margin="0,8,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="After clicking the Cell Phone icon, you can click the Close button next to it to free up more screen space. Emulation mode should continue. Now, select a Mobile Device model to emulate." TextAlignment="Justify" Margin="0,8,0,0"/>
+                    <Image Source="/Resources/help-9.png" Margin="0,8,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="You can also customize the User Agent that will be used during Emulation, if you want to make any fine adjustments." TextAlignment="Justify" Margin="0,8,0,0"/>
+                    <Image Source="/Resources/help-10.png" Margin="0,8,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="Now, simply use your browser's top URL Bar to access your favorite Search Engine and start searching. You can also configure The Search Dude's Position Pickers to do the searches for you." TextAlignment="Justify" Margin="0,8,0,0" VerticalAlignment="Top"/>
+                </StackPanel>
+            </ScrollViewer>
+
+            <Rectangle VerticalAlignment="Top" Height="1" Fill="#FFF0F0F0"/>
+            <Button x:Name="toggleExpansionBtn" Content="Button" VerticalAlignment="Top" Width="200" Height="24" Margin="0,4,0,4"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

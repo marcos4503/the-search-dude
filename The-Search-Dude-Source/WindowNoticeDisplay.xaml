@@ -1,0 +1,24 @@
+﻿<Window x:Class="The_Search_Dude.WindowNoticeDisplay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:The_Search_Dude"
+        mc:Ignorable="d"
+        Title="Notice Display" WindowStyle="None" Icon="/Resources/icon-32px.png" ResizeMode="NoResize" ShowInTaskbar="False" SizeToContent="WidthAndHeight" Topmost="True" Background="{x:Null}" AllowsTransparency="True">
+    <Grid Width="312" Height="64">
+        <Border BorderBrush="#FFE07A00" BorderThickness="4,4,4,4" CornerRadius="8,8,8,8" Background="#FFB56300">
+            <Grid>
+                <Grid Margin="8,8,8,8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="8"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Image Height="40" Width="40" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/Resources/notice-icon.png"/>
+                    <TextBlock TextWrapping="Wrap" Text="Monitor your PC at least periodically, to ensure that everything is going well." Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="14" Foreground="White"/>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
