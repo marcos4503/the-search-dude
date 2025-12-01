@@ -101,11 +101,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual-Studio\\The Search Dude\\The Search Dude.csproj",
+      "projectUniqueName": "D:\\!GitHub-Repo\\the-search-dude\\The-Search-Dude-Source\\The Search Dude.csproj",
       "projectName": "The Search Dude",
-      "projectPath": "D:\\Visual-Studio\\The Search Dude\\The Search Dude.csproj",
+      "projectPath": "D:\\!GitHub-Repo\\the-search-dude\\The-Search-Dude-Source\\The Search Dude.csproj",
       "packagesPath": "C:\\Users\\junio\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual-Studio\\The Search Dude\\obj\\",
+      "outputPath": "D:\\!GitHub-Repo\\the-search-dude\\The-Search-Dude-Source\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
