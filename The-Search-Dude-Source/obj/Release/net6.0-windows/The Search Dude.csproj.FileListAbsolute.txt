@@ -43,3 +43,4 @@ D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\refint\The Search Du
 D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\The Search Dude.pdb
 D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\The Search Dude.genruntimeconfig.cache
 D:\Visual-Studio\The Search Dude\obj\Release\net6.0-windows\ref\The Search Dude.dll
+D:\Visual-Studio\The Search Dude\bin\Release\net6.0-windows\WpfAnimatedGif.dll

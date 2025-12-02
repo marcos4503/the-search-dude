@@ -8,7 +8,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>Resources\icon-32px.ico</ApplicationIcon>
-    <AssemblyVersion>1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -43,6 +43,7 @@
     <None Remove="Resources\key-render.png" />
     <None Remove="Resources\mouse-click.wav" />
     <None Remove="Resources\notice-icon.png" />
+    <None Remove="Resources\running-tasks-2.gif" />
     <None Remove="Resources\task-done.wav" />
     <None Remove="Resources\triangle.png" />
     <None Remove="Resources\validation-error.png" />
@@ -67,6 +68,7 @@
   <ItemGroup>
     <PackageReference Include="CoroutinesForWpf" Version="0.3.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -90,6 +92,7 @@
     <Resource Include="Resources\icon-64px.png" />
     <Resource Include="Resources\key-render.png" />
     <Resource Include="Resources\notice-icon.png" />
+    <Resource Include="Resources\running-tasks-2.gif" />
     <Resource Include="Resources\triangle.png" />
     <Resource Include="Resources\validation-error.png" />
   </ItemGroup>

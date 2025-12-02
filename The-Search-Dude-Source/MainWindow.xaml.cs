@@ -74,6 +74,7 @@ namespace The_Search_Dude
         private bool isPendingCancelOfSearchTask = false;
         private POINT lastKnowedMousePosition = new POINT(0, 0);
         List<string> searchThermsToBeUsed = new List<string>();
+        CancellationTokenSource uiUpdateForcerThreadToken = null;
 
         //Public variables
         public Preferences programPrefs = null;
@@ -166,6 +167,10 @@ namespace The_Search_Dude
                     keyboardKeysWatcher.Dispose();
                 if (keybordHotkeyInterceptor_stopSerchTaskHotkey != null)
                     keybordHotkeyInterceptor_stopSerchTaskHotkey.Dispose();
+
+                //Send signal to stop the therad that force the UI update even when program is in background
+                if (uiUpdateForcerThreadToken != null)
+                    uiUpdateForcerThreadToken.Cancel();
             };
 
             //Prepare the Notice Display Window
@@ -189,6 +194,48 @@ namespace The_Search_Dude
             //Register the hotkey to stop the search task
             keybordHotkeyInterceptor_stopSerchTaskHotkey = new KeyboardHotkey_Interceptor(this, 10, KeyboardHotkey_Interceptor.ModifierKeyCodes.Control, VirtualKeyInt.VK_F10);
             keybordHotkeyInterceptor_stopSerchTaskHotkey.OnPressHotkey += () => { OnPressCtrlF10ToStopSearch(); };
+
+            //Create a thread to force the UI to continue being updated, even when out of focus
+            uiUpdateForcerThreadToken = new CancellationTokenSource();
+            Thread uiUpdateForcerThread = new Thread((object param1) =>
+            {
+                //Retrieve the cancellation token created with this thread
+                CancellationToken cancellationToken = (CancellationToken)param1;
+                //Get the Dispatcher to cache
+                System.Windows.Threading.Dispatcher currentApplicationDispatcher = Application.Current.Dispatcher;
+                //Create a action to run, that interact with the UI, to force the update of the UI
+                Action actionToRunToForceUpdateOfUi = () => 
+                {
+                    //Disable the GIF in UI, if is enabled
+                    if (noticeDisplayWindow.gifToForceUiUpdate.Visibility == Visibility.Visible)
+                    {
+                        noticeDisplayWindow.gifToForceUiUpdate.Visibility = Visibility.Collapsed;
+                        return;
+                    }
+                    //Enable the GIF in UI, if is disabled
+                    if (noticeDisplayWindow.gifToForceUiUpdate.Visibility == Visibility.Collapsed)
+                    {
+                        noticeDisplayWindow.gifToForceUiUpdate.Visibility = Visibility.Visible;
+                        return;
+                    }
+                };
+                //Run a loop that will re-execute the action created above, infinite times, until this thread cancellation
+                while (true)
+                {
+                    try
+                    {
+                        //If the cancellation of this thread is requested, cancel it
+                        if (cancellationToken.IsCancellationRequested == true)
+                            break;
+                        //Run the action that interacts with the UI, to force it to re-render...
+                        currentApplicationDispatcher.Invoke(actionToRunToForceUpdateOfUi);
+                        //Wait the delay, until next UI force update
+                        Thread.Sleep(100);
+                    }
+                    catch (Exception e) { break; }
+                }
+            });
+            uiUpdateForcerThread.Start(uiUpdateForcerThreadToken.Token);
 
             //Load Search Therms from file
             LoadSearchThermsFromFile();

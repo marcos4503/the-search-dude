@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
         xmlns:local="clr-namespace:The_Search_Dude"
         mc:Ignorable="d"
         Title="Notice Display" WindowStyle="None" Icon="/Resources/icon-32px.png" ResizeMode="NoResize" ShowInTaskbar="False" SizeToContent="WidthAndHeight" Topmost="True" Background="{x:Null}" AllowsTransparency="True">
@@ -15,7 +16,8 @@
                         <ColumnDefinition Width="8"/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Image Height="40" Width="40" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/Resources/notice-icon.png"/>
+                    <Image x:Name="noticeIcon" Height="40" Width="40" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/Resources/notice-icon.png"/>
+                    <Image x:Name="gifToForceUiUpdate" gif:ImageBehavior.AnimatedSource="/Resources/running-tasks-2.gif" gif:ImageBehavior.AnimationSpeedRatio="1.5" HorizontalAlignment="Center" Opacity="0.25"/>
                     <TextBlock TextWrapping="Wrap" Text="Monitor your PC at least periodically, to ensure that everything is going well." Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="14" Foreground="White"/>
                 </Grid>
             </Grid>

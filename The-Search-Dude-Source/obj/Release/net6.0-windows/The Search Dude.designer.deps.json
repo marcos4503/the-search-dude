@@ -25,6 +25,14 @@
             "fileVersion": "13.0.4.30916"
           }
         }
+      },
+      "WpfAnimatedGif/2.0.2": {
+        "runtime": {
+          "lib/netcoreapp3.0/WpfAnimatedGif.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.2.0"
+          }
+        }
       }
     }
   },
@@ -42,6 +50,13 @@
       "sha512": "sha512-pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
       "path": "newtonsoft.json/13.0.4",
       "hashPath": "newtonsoft.json.13.0.4.nupkg.sha512"
+    },
+    "WpfAnimatedGif/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B0j9SqtThyHVTiOPvu6yR+39Te0g3o+7Jjb+qEm7+Iz1HRqbE5/4QV+ntHWOYYBPOUFr9x1mdzGl/EzWP+nKiA==",
+      "path": "wpfanimatedgif/2.0.2",
+      "hashPath": "wpfanimatedgif.2.0.2.nupkg.sha512"
     }
   }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:The_Search_Dude"
         mc:Ignorable="d"
-        Title="Search Status" WindowStyle="None" Icon="/Resources/icon-32px.png" ResizeMode="NoResize" ShowInTaskbar="False" SizeToContent="WidthAndHeight" Topmost="True" IsHitTestVisible="False" Background="{x:Null}" AllowsTransparency="True">
+        Title="Search Status" WindowStyle="None" Icon="/Resources/icon-32px.png" ResizeMode="NoResize" SizeToContent="WidthAndHeight" Topmost="True" IsHitTestVisible="False" Background="{x:Null}" AllowsTransparency="True">
     <Grid Width="280" Height="120">
         <Border BorderBrush="#FF0E4F80" CornerRadius="0,0,8,8" BorderThickness="4,4,4,4" Background="#FF3B8FD0">
             <StackPanel VerticalAlignment="Top">
