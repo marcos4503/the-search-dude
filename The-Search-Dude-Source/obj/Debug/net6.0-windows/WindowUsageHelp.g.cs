@@ -77,7 +77,7 @@ namespace The_Search_Dude {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/The Search Dude;V1.1.0;component/windowusagehelp.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/The Search Dude;V1.2.1;component/windowusagehelp.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\WindowUsageHelp.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

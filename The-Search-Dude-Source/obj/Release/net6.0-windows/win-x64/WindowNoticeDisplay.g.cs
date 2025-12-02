@@ -70,7 +70,7 @@ namespace The_Search_Dude {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/The Search Dude;V1.2.0;component/windownoticedisplay.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/The Search Dude;V1.2.1;component/windownoticedisplay.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\WindowNoticeDisplay.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

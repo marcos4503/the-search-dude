@@ -43,3 +43,4 @@ D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowSearchStatus.bam
 D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowNoticeDisplay.g.cs
 D:\Visual-Studio\The Search Dude\obj\Debug\net6.0-windows\WindowNoticeDisplay.baml
 D:\Visual-Studio\The Search Dude\bin\Debug\net6.0-windows\Resources\task-done.wav
+D:\Visual-Studio\The Search Dude\bin\Debug\net6.0-windows\WpfAnimatedGif.dll

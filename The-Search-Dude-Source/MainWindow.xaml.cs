@@ -547,6 +547,8 @@ namespace The_Search_Dude
 
             //Inform that is waiting for CTRL + F10 to stop
             isWaitingCtrlF10PressToStop = true;
+            //Inform that is not pending cancel of the search task
+            isPendingCancelOfSearchTask = false;
             //If the mouse movement detection is enabled, start the detection loop to stop
             if (programPrefs.loadedData.stopSearchingOnMouseMove == true)
             {
@@ -911,6 +913,10 @@ namespace The_Search_Dude
                 onMouseMoveStopSearchRoutineCoroutine = null;
             }
 
+            //Inform that is stopped
+            isWaitingCtrlF10PressToStop = false;
+            isPendingCancelOfSearchTask = false;
+
             //Change to stopping mode
             searchStatusWindow.SetProgressValue(0, 100);
             searchStatusWindow.SetCustomStatus("Finishing in 3 Seconds");
@@ -1025,6 +1031,7 @@ namespace The_Search_Dude
 
             //Simulate the F10 press to continue
             DoKeyDownAndUpSingleKeyboardPress(VirtualKeyHex.VK_F10);
+            RenderKeyPress("F10");
 
             //Wait time
             yield return new WaitForSeconds(5.0f);
@@ -1058,6 +1065,7 @@ namespace The_Search_Dude
 
             //Simulate the F10 press to continue
             DoKeyDownAndUpSingleKeyboardPress(VirtualKeyHex.VK_F10);
+            RenderKeyPress("F10");
 
             //Wait time
             yield return new WaitForSeconds(5.0f);
